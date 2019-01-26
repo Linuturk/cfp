@@ -28,6 +28,12 @@ Notes will only be seen by reviewers during the CFP process. This is where you s
 
 # Tags
 
-# Bio
+go,golang
 
-Your bio sells you. Who are you? Why do you want people to know about you? Who's your favorite member of One Direction? This is your chance to put it all out there.
+# Brainstorming
+
+* Device remediation API rewrite from v1 (python) to v2 (go)
+* jsonapi.org spec API with api2go and Cassandra
+* Windows service using go and github.com/kardianos/service
+* JSON Command spec for MQTT payloads
+* 
