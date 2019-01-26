@@ -32,6 +32,24 @@ go,golang
 
 * Device remediation API rewrite from v1 (python) to v2 (go)
   * good migration story
+  * more complete narrative versus a generic api / data store story
+  * describe the problem we face testing consumer electronics
+    * reliably detecting state
+    * little to no consistency in direct access
+    * tests can leave devices in inconsistent states
+    * can't just pull the plug on every device
+  * what levers do we have to pull?
+    * infrared receivers
+    * physical and capacitive power buttons
+    * remote PDU access with on/off/measure features
+  * v1 design limitations
+    * limited to a single AWS region
+    * new device models required code changes
 * jsonapi.org spec API with api2go and Cassandra
+  * not as interesting of a narrative but same technical aspects
 * Windows service using go and github.com/kardianos/service
+  * Windows is niche, which could be a pro or a con
 * JSON Command spec for MQTT payloads
+  * interesting IOT narrative
+  * payload limitations make for creative engineering
+  * never found an elegant solution for command validation and execution
