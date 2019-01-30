@@ -50,7 +50,7 @@ The solution includes:
 * using the [telnet]("github.com/ziutek/telnet) package to enable communication to our networked PDUs for power measurement and switching.
 * reflection on structs to auto create our database schema.
 
-I'd love some guidance on Audience Level and Format. I feel like a lot of this is fairly simple, but I'm been immersed in this project for a while and I might not have a solid perspective on complexity. I'm sure there's plenty of content here to last 45 minutes, but a paired down presentation could fit in the 25 minute slot.
+I'd love some guidance on Audience Level and Format. I feel like a lot of this is fairly simple, but I've been immersed in this project for a while and I might not have a solid perspective on complexity. I'm sure there's plenty of content here to last 45 minutes, but a paired down presentation could fit in the 25 minute slot.
 
 ## Tags
 
