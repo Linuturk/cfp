@@ -18,7 +18,7 @@ At Netflix we test a wide variety of consumer electronics. These devices usually
 
 ## Description
 
-We test a wide variety of consumer electronic devices that don't allow for direct control. We use a variety of external controls to detect a device's state and attempt automatic remediation. Learn how we migrated from a synchronous Flask API to an asynchronous Go API for device remediation in our labs. Our API make use of the jsonapi.org specification to provide a consistent experience to our test runners. We utilize IOT devices and MQTT to send and process commands against our devices.
+We test a wide variety of consumer electronic devices that don't allow for direct control. We use a variety of external controls to detect a device's state and attempt automatic remediation. Learn how we migrated from a synchronous Flask API to an asynchronous Go API for device remediation in our labs. Our API make use of the [jsonapi.org](https://jsonapi.org/) specification to provide a consistent experience to our test runners. We utilize IOT devices and MQTT to send and process commands against our devices.
 
 ## Reviewer Notes
 
@@ -46,15 +46,15 @@ The solution includes:
 
 * using the [jsonapi.org](https://jsonapi.org/) specification and [api2go](https://github.com/manyminds/api2go) package.
 * migrating from a Raspberry Pi hubs to a custom IOT device controlled using MQTT and the [paho.mqtt.golang](https://github.com/eclipse/paho.mqtt.golang) package.
-* designing a custom command specification for the MQTT payloads to enable the control of IR transmitters and mechanical servo "fingers" for remote device manipulation. There are sections of the command specification package that have some inelegant marshalling solutions that I'd like to share with the community.
+* designing a custom command specification for the MQTT payloads to enable the control of IR transmitters and mechanical servo "fingers" for remote device manipulation. There are sections of the command specification package that have some inelegant marshaling solutions that I'd like to share with the community.
 * using the [telnet]("github.com/ziutek/telnet) package to enable communication to our networked PDUs for power measurement and switching.
 * reflection on structs to auto create our database schema.
 
-I'd love some guidance on Audience Level and Format. I feel like a lot of this is fairly simple, but I'm been immersed in this project for a while and I might not have a solid perspective on complexity. I'm sure there's plenty of content here to last 45 minutues, but a paired down presentation could fit in the 25 minute slot.
+I'd love some guidance on Audience Level and Format. I feel like a lot of this is fairly simple, but I'm been immersed in this project for a while and I might not have a solid perspective on complexity. I'm sure there's plenty of content here to last 45 minutes, but a paired down presentation could fit in the 25 minute slot.
 
 ## Tags
 
-go,golang,jsonapi,mqtt
+go,golang,json,api,mqtt,iot
 
 ## Brainstorming
 
