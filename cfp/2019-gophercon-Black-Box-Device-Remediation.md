@@ -1,6 +1,4 @@
-# Title
-
-Black Box Device Remediation
+# Black Box Device Remediation
 
 ## Format
 
